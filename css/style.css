@@ -7,14 +7,15 @@ header{
 }
 .container1{
     border-radius: 2%;
-    background-color: transparent;
+    background-color: #953F42;
+    opacity: 0.9;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     order: 3;
     border: 0.1px solid #323f42;
-    box-shadow: 3px 3px 3px #a4b7b5;
+    box-shadow: 5px 3px 8px #a4b7b5, inset 30px 65px #436897;
 }
 nav{
     column-count: 2;
@@ -46,6 +47,7 @@ section{
     margin: 20px 90px;
     display: flex;
     align-items: center;
+    box-shadow: 2px 2px 5px #a4b7b5;
 
 }
 section>img{
